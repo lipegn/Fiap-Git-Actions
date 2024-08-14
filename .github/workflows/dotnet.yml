@@ -21,6 +21,6 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore /home/runner/work/Fiap-Git-Actions/slnGitHubActions/API/API.csproj
+      run: dotnet restore /home/runner/work/Fiap-Git-Actions/Fiap-Git-Actions/slnGitHubActions/API/API.csproj
     - name: Build
-      run: dotnet build --no-restore /home/runner/work/Fiap-Git-Actions/slnGitHubActions/API/API.csproj
+      run: dotnet build --no-restore /home/runner/work/Fiap-Git-Actions/Fiap-Git-Actions/slnGitHubActions/API/API.csproj
